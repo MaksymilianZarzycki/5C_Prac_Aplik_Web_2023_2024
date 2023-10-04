@@ -7,13 +7,13 @@
 <body>
     <?php
         $nr1=$_POST['nr1'];
-            if($nr1<11)
-            {
-            echo "Dziecko";
-            } else  if($nr1>=18)
-            {
-            echo "Dorosły";
-            } else  echo "Nastolatek";
+        if($nr1<11)
+        {
+        echo "Dziecko";
+        } else  if($nr1>=18)
+        {
+        echo "Dorosły";
+        } else  echo "Nastolatek";
     ?>
     <br><a href="strona1.php">Powrót</a>
 </body>
