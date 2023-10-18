@@ -3,21 +3,12 @@
 <head>
     <meta charset="UTF-8">
     <title>Strona główna</title>
-    <style>
-        table
-        {
-            border-collapse: collapse;
-        }
-        th,td
-        {
-            border:1px solid black;
-        }
-    </style>
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
     <form method="post" action="insert.php">  
          <div>
-            INSERT
+         <h3>INSERT</h3>
             <table>
                     <tr>
                         <th>ID</th>
@@ -43,21 +34,23 @@
         <input type="submit" value="WYŚLIJ">
     </form>
 
-    <form method="post" action="strona2.php">  
+    <form method="post" action="select.php">  
         <div>
-            SELECT
+            <h3>SELECT</h3>
+            ID <input type="number" name="id2"> <input type="submit" value="WYŚLIJ">
+        </div>
+    </form>
+
+    <form method="post" action="delete.php">  
+        <div>
+            <h3>DELETE</h3>
+            ID <input type="number" name="id3"> <input type="submit" value="WYŚLIJ">
         </div>
     </form>
 
     <form method="post" action="strona2.php">  
         <div>
-            DELETE
-        </div>
-    </form>
-
-    <form method="post" action="strona2.php">  
-        <div>
-            EDIT
+            <h3>EDIT</h3>
         </div>
     </form>
    
