@@ -5,7 +5,7 @@
     <title>Zad2</title>
 </head>
 <body>
-        <form method="post" action="strona2.php">
+        <form method="post" action="kolory.php">
             <label for="bgcolor">Kolor tła(hex): </label>
             <input type="text" name="bgcolor" minlenght="6" maxlenght="6">
             <label for="txtcolor">Kolor tekstu(hex): </label>
