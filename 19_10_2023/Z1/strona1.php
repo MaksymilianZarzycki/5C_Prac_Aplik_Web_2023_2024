@@ -2,7 +2,7 @@
 <html lang="pl">
 <head>
     <meta charset="UTF-8">
-    <title>Logowanie</title>
+    <title>Zad1</title>
 </head>
 <body>
         <form method="post" action="strona2.php">
