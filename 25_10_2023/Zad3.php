@@ -1,14 +1,15 @@
 <?php
-    setcookie("username","Maksymilian Zarzycki");
+    setcookie("username","username");
 ?>
 <!DOCTYPE html>
 <html lang="pl">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Zad1</title>
+    <title>Zad3</title>
 </head>
 <body>
-    
+    <?php
+    ?>
 </body>
 </html>
