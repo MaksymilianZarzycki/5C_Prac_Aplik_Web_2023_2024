@@ -1,9 +1,20 @@
+<?php
+    if(!isset($_COOKIE["visited"]))
+    {
+        $welcomeMessage="Dzień dobry! Sprawdź regulamin naszej strony";
+    }
+    else
+    {
+        $welcomeMessage="Miło nam, że nas znowu odwiedziłeś";
+    }
+    setcookie("visited",1,time()+3600);
+?>
 <!DOCTYPE html>
 <html lang="pl">
 <head>
     <meta charset="UTF-8">
     <title>Odloty samolotów</title>
-    <linjk rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="styl6.css">
 </head>
 <body>
     <header id="hleft">
@@ -24,6 +35,32 @@
                 <th>KIERUNEK</th>
                 <th>STATUS</th>
             </tr>
+            <?php
+                $sw="localhost";
+                $user="root";
+                $passw="";
+                $db="egzamin";
+            
+                $connection=mysqli_connect($sw,$user,$passw,$db);
+            
+                $query="SELECT id, nr_rejsu, czas, kierunek, status_lotu FROM `odloty` ORDER BY czas DESC;";
+            
+                $result=mysqli_query($connection,$query);
+
+               
+                while($row=mysqli_fetch_row($result))
+                {
+                    echo"<tr>";
+                    echo "<td>$row[0]</td>";
+                    echo "<td>$row[1]</td>";
+                    echo "<td>$row[2]</td>";
+                    echo "<td>$row[3]</td>";
+                    echo "<td>$row[4]</td>";
+                    echo"</tr>";
+                }
+                
+                mysqli_close($connection);
+            ?>            
         </table>
     </main>
 
@@ -32,7 +69,9 @@
     </footer>
 
     <footer id="fmiddle">
-        
+        <?php
+        echo "<p><b>$welcomeMessage</b></p>";
+        ?>
     </footer>
 
     <footer id="fright">
