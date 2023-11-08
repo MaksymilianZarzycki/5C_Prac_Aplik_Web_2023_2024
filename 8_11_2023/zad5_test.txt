@@ -1,0 +1,12 @@
+Zad5
+
+Wygodniej jest zastosować instrukcję switch, ponieważ wyrarzenie podaje się tylko raz i potem podaje się tylko instrukcje dla poszczególnych wartości.
+Stosując istrukcję if dla karzdej wartości trzeba stworzyć nowy warunek. Budowa instrukcji switch jest prostrza i bardziej czytelna dzięki czemu jest łatwiejsza w użyciu.
+
+TEST
+
+1.C
+2.A
+3.B
+4.C
+5.A
