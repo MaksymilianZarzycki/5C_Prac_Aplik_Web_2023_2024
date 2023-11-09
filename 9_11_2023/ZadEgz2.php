@@ -7,11 +7,11 @@
 <body>
     <?php
     $w=0;
-        for($i=100;$i<300;$i+=2)
+        for($i=10;$w<=1000;$i++)
         {
             $w+=$i;
         }
-    echo $w;
+    echo "Suma: ".$w." Liczba zsumowanych liczb: ".$i;
     ?>
 </body>
 </html>
