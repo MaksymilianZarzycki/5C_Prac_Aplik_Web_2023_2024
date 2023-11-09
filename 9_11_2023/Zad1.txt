@@ -1,0 +1,1 @@
+Pętle umożliwiają wielokrotne wykonanie powtarzalnej czynności zapisując daną instrukcję tylko raz. Dzięki temu kod jest krótrzy i bardziej czytelny. Pętle są wydajniejsze, łatwiejsze w użyciu i można je zastosować w wielu różnych programach.
