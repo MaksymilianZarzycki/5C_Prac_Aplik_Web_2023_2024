@@ -1,0 +1,8 @@
+Zad1
+MySQL           https://www.mysql.com/                                      8.0             Tak
+PostgreSQL      https://www.postgresql.org/                                 16.1            Nie
+Oracle Database https://www.oracle.com/database/                            19c             Nie
+MS SQL          https://www.microsoft.com/pl-pl/sql-server/sql-server-2019  SQL Server 2019 Tak
+DB2             https://www.ibm.com/products/db2                            11.5            Nie
+
+Zad2
