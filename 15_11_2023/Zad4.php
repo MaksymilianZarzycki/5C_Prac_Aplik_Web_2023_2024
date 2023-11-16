@@ -28,6 +28,8 @@
             echo "</tr>";
         }
         echo"</table>";
+
+        mysqli_close($connection);
     ?>
 </body>
 </html>

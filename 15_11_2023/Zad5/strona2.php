@@ -24,7 +24,7 @@
         <th>DATA URODZENIA</th>
         
         <tr>";
-        while($row=mysqli_fetch_row($result))
+        while($row=mysqli_fetch_row($select))
         {
             echo "<tr>";
             echo "<td>$row[0]</td>";
@@ -34,6 +34,8 @@
             echo "</tr>";
         }
         echo"</table>";
+
+        mysqli_close($connection);
     ?>
 </body>
 </html>

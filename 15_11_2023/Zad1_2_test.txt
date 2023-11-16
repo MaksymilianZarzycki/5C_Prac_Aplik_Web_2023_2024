@@ -6,3 +6,21 @@ MS SQL          https://www.microsoft.com/pl-pl/sql-server/sql-server-2019  SQL 
 DB2             https://www.ibm.com/products/db2                            11.5            Nie
 
 Zad2
+Zalety:
+-Skalowalność
+-Bezpieczeństwo
+-Integralność
+-Wydajność
+
+Wady:
+-Wysokie koszty
+-Skomplikowane zarządzanie serwerem
+-Wysokie wymagania zasobów
+-Zależność od dostawcy
+
+Test 67.
+1.C
+2.C
+3.B
+4.B
+5.B
