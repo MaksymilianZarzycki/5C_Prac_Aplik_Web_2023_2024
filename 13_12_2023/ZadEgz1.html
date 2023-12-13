@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+    <meta charset="UTF-8">
+    <title>ZadEgz1</title>
+    <script>
+        function licz(){
+            let l = document.getElementById("tekst").value.length;
+            document.getElementById("licznik").innerHTML=l;
+        }
+    </script>
+</head>
+<body>
+    <form>
+        <input type="textarea" id="tekst" onkeydown="licz()">
+    </form>
+    <p id="licznik"></p>
+</body>
+</html>
