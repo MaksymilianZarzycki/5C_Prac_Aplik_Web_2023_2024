@@ -1,0 +1,8 @@
+Zalety
+-zmniejsza obciąrzenie serwera
+-nie trzeba czekać na odpowiedż serwera
+-
+
+Wady
+-zależność od przeglądarki
+-mniejsze bezpieczeństwo

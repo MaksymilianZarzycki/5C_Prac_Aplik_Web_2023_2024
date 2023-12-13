@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+    <meta charset="UTF-8">
+    <title>Zad1</title>
+    <script>
+        function wyslij(){
+            let imie = document.getElementById("imie").value;
+            let nazwisko = document.getElementById("nazwisko").value;
+            let wiek = document.getElementById("wiek").value;
+            document.getElementById("wynik").innerHTML=imie+nazwisko+wiek;
+        }
+    </script>
+</head>
+<body>
+    <form>
+        <input type="text" id="imie">
+        <input type="text" id="nazwisko">
+        <input type="number" id="wiek">
+        <input type="button" onclick="wyslij()" value="Wyślij">
+    </form>
+    <br><p id="wynik"></p>
+</body>
+</html>
