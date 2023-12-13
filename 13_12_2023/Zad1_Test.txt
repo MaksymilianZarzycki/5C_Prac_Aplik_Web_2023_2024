@@ -1,3 +1,4 @@
+Zad1
 Zalety
 -zmniejsza obciąrzenie serwera
 -nie trzeba czekać na odpowiedż serwera
@@ -6,3 +7,10 @@ Zalety
 Wady
 -zależność od przeglądarki
 -mniejsze bezpieczeństwo
+
+Test55
+1d
+2d
+3c
+4c
+5d

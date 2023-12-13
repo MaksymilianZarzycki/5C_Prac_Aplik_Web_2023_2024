@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+    <meta charset="UTF-8">
+    <title>Zad4</title>
+    <script>
+        function oblicz(){
+            let imie = document.getElementById("imie").value;
+            let nazwisko = document.getElementById("nazwisko").value;
+            let email = document.getElementById("email").value;
+
+            if(imie==""){
+            document.getElementById("pimie").innerHTML="Pole nie może być puste";
+            }else{
+                document.getElementById("pimie").innerHTML="";
+            }
+
+            if(nazwisko==""){
+            document.getElementById("pnazwisko").innerHTML="Pole nie może być puste";
+            }else{
+                document.getElementById("pnazwisko").innerHTML="";
+            }
+
+            if(email==""){
+            document.getElementById("pemail").innerHTML="Pole nie może być puste";
+            }else{
+                document.getElementById("pemail").innerHTML="";
+            }
+        }
+    </script>
+</head>
+<body>
+    <form>
+        <label for="imie">Imie:</label>
+        <input type="text" id="imie">
+        <p id="pimie" style="display:inline;"></p>
+        <br>
+
+        <label for="nazwisko">Nazwikso:</label>
+        <input type="text" id="nazwisko">
+        <p id="pnazwisko" style="display:inline;"></p>
+        <br>
+
+        <label for="email">E-mail:</label>
+        <input type="text" id="email">
+        <p id="pemail" style="display:inline;"></p>
+        <br>
+
+        <input type="button" value="Oblicz" onclick="oblicz()">
+    </form>
+    <br>
+</body>
+</html>

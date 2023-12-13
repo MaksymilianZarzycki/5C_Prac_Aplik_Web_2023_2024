@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+    <meta charset="UTF-8">
+    <title>Zad5</title>
+    <script>
+        function oblicz(){}
+
+        function wyczysc(){
+            document.getElementById("nazwa").value="Zespół Szkół Elektrycznych";
+            document.getElementById("kod").value="25-317";
+            document.getElementById("miej").value="Kielce";
+            document.getElementById("ul").value="Prezydenta Ryszarda Kaczorowskiego";
+            document.getElementById("numer").value="8";
+            document.getElementById("tel").value="41 368 05 70";
+        }
+    </script>
+</head>
+<body>
+    <form>
+        <label for="nazwa">Nazwa:</label>
+        <input type="text" id="nazwa">
+        <br>
+
+        <label for="kod">Kod:</label>
+        <input type="text" id="kod">
+        <br>
+
+        <label for="miej">Miejscowość:</label>
+        <input type="text" id="miej">
+        <br>
+
+        <label for="ul">Ulica:</label>
+        <input type="text" id="ul">
+        <br>
+
+        <label for="numer">Numer:</label>
+        <input type="text" id="numer">
+        <br>
+
+        <label for="tel">Telefon:</label>
+        <input type="text" id="tel">
+        <br>
+
+        <input type="button" onclick="oblicz()" value="Oblicz">
+        <input type="button" onclick="wyczysc()" value="Wyczyść">
+    </form>
+</body>
+</html>

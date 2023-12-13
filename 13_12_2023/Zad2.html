@@ -2,22 +2,25 @@
 <html lang="pl">
 <head>
     <meta charset="UTF-8">
-    <title>Zad1</title>
+    <title>Zad2</title>
     <script>
         function wyslij(){
             let imie = document.getElementById("imie").value;
             let nazwisko = document.getElementById("nazwisko").value;
             let wiek = document.getElementById("wiek").value;
-            document.getElementById("wynik").innerHTML=imie+nazwisko+wiek;
+            document.getElementById("wynik").innerHTML=imie+" "+nazwisko+" "+wiek;
         }
     </script>
 </head>
 <body>
     <form>
+        <label for="imie">Imie:</label>
         <input type="text" id="imie">
+        <label for="nazwisko">Nazwisko:</label>
         <input type="text" id="nazwisko">
+        <label for="wiek">Wiek:</label>
         <input type="number" id="wiek">
-        <input type="button" onclick="wyslij()" value="Wyślij">
+        <input type="button" onclick="wyslij()" value="Wykonaj">
     </form>
     <br><p id="wynik"></p>
 </body>
