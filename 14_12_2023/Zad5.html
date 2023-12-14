@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+    <meta charset="UTF-8">
+    <title>Zad4</title>
+    <script>
+        let i = 0;
+        function bclick(){
+            document.getElementsByTagName("p")[0].innerHTML=++i;
+        }
+    </script>
+</head>
+<body>
+    <input type="button" value="test" onClick="bclick()">
+    <p>0</p>
+</body>
+</html>

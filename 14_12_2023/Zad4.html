@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+    <meta charset="UTF-8">
+    <title>Zad4</title>
+    <script>
+        function over(){
+            document.getElementsByTagName("p")[0].innerHTML="Najechłeś kursorem na przycisk";
+        }
+
+        function out(){
+            document.getElementsByTagName("p")[0].innerHTML="Kursor opuścił obszar przycisku";
+        }
+    </script>
+</head>
+<body>
+    <input type="button" value="test" onMouseOver="over()" onMouseOut="out()">
+    <p></p>
+</body>
+</html>

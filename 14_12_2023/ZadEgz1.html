@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+    <meta charset="UTF-8">
+    <title>ZadEgz1</title>
+    <script>
+        function calculate(){
+            let a = document.getElementsByClassName("sides");
+            console.log(a[0].value);
+            let p = (parseFloat(a[0].value) + parseFloat(a[1].value) + parseFloat(a[2].value))/2;
+
+            let p2 = Math.sqrt(p*(p-a[0].value)*(p-a[1].value)*(p-a[2].value));
+
+            document.getElementsByTagName("p")[0].innerHTML=`Obwód: ${p*2}, Pole: ${p2}`;
+        }   
+    </script>
+</head>
+<body>
+    <input type="number" class="sides">
+    <input type="number" class="sides">
+    <input type="number" class="sides"">
+    <input type="button" onclick="calculate()" value="Oblicz">
+    <p></p>
+</body>
+</html>

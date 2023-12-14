@@ -1,0 +1,16 @@
+Zad1
+onLoad-Często jest wykorzystywany w elemencie body, aby uruchomić skrypt po pełnym załadowaniu strony.
+onSubmit-Często wykorzystywany do uruchomienia skryptu walidującego zawartość pól formularza.
+onMouseClick-
+onMouseOver-Zmiana koloru elementu strony gdy kursor się nad nim znajduje.
+onMouseOut-Cofnięcie zmian spowodowanych wyrzej wymienionym onMouseOver gdy kursor nie znajduje się już na tym elemrncie.
+
+Zad2
+onMouseOver występuje po najechaniu danego elementu strony kursorem, a onMouseDown występuje w momencie kliknięcia przycisku myszy.
+
+test54
+1b
+2d
+3d
+4a
+5d
